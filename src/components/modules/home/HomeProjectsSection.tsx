@@ -15,6 +15,7 @@ const HomeProjectsSection = () => {
             height={200}
             src={project1}
             alt="project"
+            unoptimized
             className="w-full h-[300px] object-cover object-top rounded-tl-md rounded-tr-md"
           />
         </div>
@@ -77,6 +78,7 @@ const HomeProjectsSection = () => {
             height={200}
             src={project2}
             alt="project"
+            unoptimized
             className="w-full h-[300px] object-cover object-top rounded-tl-md rounded-tr-md"
           />
         </div>
@@ -139,6 +141,7 @@ const HomeProjectsSection = () => {
             height={200}
             src={project2}
             alt="project"
+            unoptimized
             className="w-full h-[300px] object-cover object-top rounded-tl-md rounded-tr-md"
           />
         </div>
