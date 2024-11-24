@@ -10,7 +10,7 @@ const HomeInterpersonalSkillsSection = () => {
         </span>
         <span className="mt-1">Interpersonal Skills</span>
       </p>
-      <ul className="list-disc ps-[18px] text-sm text-gray-300 grid grid-cols-1 lg:grid-cols-2 gap-3">
+      <ul className="list-disc ps-[18px] text-sm text-gray-300 grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10">
         <li>
           <p className="mb-1">Communication and Teamwork</p>
           <div className="flex flex-col gap-1">

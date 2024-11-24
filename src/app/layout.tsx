@@ -1,5 +1,6 @@
 import Providers from "@/lib/Providers";
 import "./globals.css";
+import "./loader.css";
 import 'react-quill/dist/quill.snow.css';
 
 export const metadata = {

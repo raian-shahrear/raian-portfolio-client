@@ -6,7 +6,7 @@ import NavbarItems from "./NavbarItems";
 const FrontendNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-[#212529] shadow-md fixed w-full z-10">
+    <div className="bg-[#212529] shadow-xl border-b border-gray-800 fixed w-full z-10">
       <div className="lg:container mx-auto px-2 py-4">
         <div className="relative flex items-center">
           <Link

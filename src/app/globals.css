@@ -7,10 +7,16 @@
 .editor-style ul {
   list-style: inherit !important;
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .editor-style ol {
   list-style: any !important;
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .editor-style li {
   list-style-position: inside;
