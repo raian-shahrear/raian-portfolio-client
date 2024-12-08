@@ -8,12 +8,14 @@ const HomeAboutSection = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10">
       <div>
         <article className="text-gray-300 text-sm">
-          I am Raian Shahrear, completed my BSc in Electrical and Electronics
-          Engineering from American International University-Bangladesh (AIUB).
-          Also, I am a passionate web developer, have learned Frontend Web
-          Development where the speciality is on MERN stack. I use to apply
-          Bootstrap or Tailwind & React.js to design Frontend and Express.js &
-          MongoDB to develop Backend to provide Full Stack development service.
+          I am a passionate Web Developer who is professionally capable of
+          working with a team or solo in MERN stack, vanilla Javascript, and
+          Typescript based on projects. I have more than 1 and a half years of
+          experience in Frontend and Backend. I use to apply Bootstrap or
+          Tailwind & React.js or Next.js to design Frontend and Express.js &
+          Mongoose to develop Backend to provide Full Stack development service.
+          I look forward to knowing more staff and becoming an expert on Full
+          stack.
         </article>
         <div className="mt-3">
           <p className="text-base flex items-center gap-1 text-gray-100 mb-2">

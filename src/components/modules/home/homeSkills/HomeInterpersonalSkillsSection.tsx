@@ -12,7 +12,7 @@ const HomeInterpersonalSkillsSection = () => {
       </p>
       <ul className="list-disc ps-[18px] text-sm text-gray-300 grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10">
         <li>
-          <p className="mb-1">Communication and Teamwork</p>
+          <p className="mb-1 font-semibold">Communication and Teamwork</p>
           <div className="flex flex-col gap-1">
             <span>
               - I have proved my communication and teamwork skill during
@@ -28,7 +28,7 @@ const HomeInterpersonalSkillsSection = () => {
           </div>
         </li>
         <li>
-          <p className="mb-1">Critical Thinking</p>
+          <p className="mb-1 font-semibold">Critical Thinking</p>
           <div className="flex flex-col gap-1">
             <span>
               - I always like to think differently and looking for multiple
@@ -41,7 +41,7 @@ const HomeInterpersonalSkillsSection = () => {
           </div>
         </li>
         <li>
-          <p className="mb-1">Negotiation</p>
+          <p className="mb-1 font-semibold">Negotiation</p>
           <div className="flex flex-col gap-1">
             <span>
               - Listening is an important key of Negotiation. I have experienced
@@ -54,7 +54,7 @@ const HomeInterpersonalSkillsSection = () => {
           </div>
         </li>
         <li>
-          <p className="mb-1">Leadership & Influencing</p>
+          <p className="mb-1 font-semibold">Leadership & Influencing</p>
           <div className="flex flex-col gap-1">
             <span>
               - I usually acted as a leader in the most of my laboratory groups.
@@ -72,7 +72,7 @@ const HomeInterpersonalSkillsSection = () => {
           </div>
         </li>
         <li>
-          <p className="mb-1">Adaptability under pressure</p>
+          <p className="mb-1 font-semibold">Adaptability under pressure</p>
           <div className="flex flex-col gap-1">
             <span>
               - I love to learn a new thing and have no problem to work under

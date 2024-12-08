@@ -68,6 +68,22 @@ export const getSingleProject = async (projectId: string): Promise<any> => {
   return res.json();
 };
 
+// get featured projects
+export const getFeaturedProjects = async (params: TFilterProps) => {
+  const queryString = buildQueryParams(params);
+  const fetchOption: RequestInit = {
+    cache: "no-store",
+  };
+  const res = await fetch(
+    `${envConfig.API_URL}/projects/is/featured?${queryString}`,
+    fetchOption
+  );
+  if (!res.ok) {
+    throw new Error("Failed to fetch project");
+  }
+  return res.json();
+};
+
 // get all projects
 export const getAllProjects = async (params: TFilterProps) => {
   const queryString = buildQueryParams(params);

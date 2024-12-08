@@ -1,12 +1,8 @@
 "use client";
 import profile from "@/assets/contact/Raian.jpg";
 import { FaLocationDot } from "react-icons/fa6";
-import {
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaLinkedin,
-  FaPhoneAlt,
-} from "react-icons/fa";
+import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -59,7 +55,7 @@ const HomeContactSection = () => {
             </li>
             <li className="text-lg grid grid-cols-[16px_auto] gap-2 items-center">
               <span>
-                <FaPhoneAlt />
+                <IoLogoWhatsapp />
               </span>
               <span>+880 1944920233</span>
             </li>

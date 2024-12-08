@@ -1,6 +1,6 @@
 #### Portfolio Live site Link: [portfolio-client-live-link](https://portfolio-client-smoky.vercel.app)
 
-#### Portfolio Server Link: [portfolio-live-server-link](https://portfolio-server-nine-orpin.vercel.app/)
+#### Portfolio Server Link: [portfolio-live-server-link](https://portfolio-server-nine-orpin.vercel.app)
 
 #### Github (Frontend): [github-frontend-url](https://github.com/raian-shahrear/raian-portfolio-client)
 

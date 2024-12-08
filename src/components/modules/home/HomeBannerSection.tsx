@@ -35,6 +35,11 @@ const HomeBannerSection = () => {
                     .typeString(
                       '<span style="color: #3b82f6;">MERN Stack</span>'
                     )
+                    .pauseFor(300)
+                    .deleteChars(10)
+                    .typeString(
+                      '<span style="color: #3b82f6;">Full Stack Development</span>'
+                    )
                     .pauseFor(1000)
                     .deleteAll()
                     .start();
@@ -42,7 +47,7 @@ const HomeBannerSection = () => {
               />
             </div>
             <p className="text-base text-gray-400 mb-16">
-              I am a Frontend developer from Bangladesh, have learned MERN Stack
+              I am a Web developer from Bangladesh, worked MERN Stack
               development and completed a few projects on this tech, now
               exploring more about MERN and web servers & databases. I can make
               a website in a few days, but it depends on the size and

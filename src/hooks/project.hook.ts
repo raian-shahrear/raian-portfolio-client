@@ -2,6 +2,7 @@ import {
   createProject,
   deleteProject,
   getAllProjects,
+  getFeaturedProjects,
   getSingleProject,
   updateProject,
 } from "@/actions/ProjectActions";
@@ -69,6 +70,15 @@ export const useGetSingleProject = (projectId: string) => {
     queryKey: ["GET_SINGLE_PROJECT", projectId],
     queryFn: () => getSingleProject(projectId),
     enabled: !!projectId,
+  });
+};
+
+// get featured projects
+export const useGetFeaturedProjects = (params?: TFilterProps) => {
+  return useQuery({
+    queryKey: ["GET_Featured_PROJECTS", params],
+    queryFn: async() => await getFeaturedProjects(params || {}),
+    staleTime: 0,
   });
 };
 

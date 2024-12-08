@@ -1,14 +1,14 @@
 "use client";
 import RingLoader from "@/components/ui/loading/RingLoader";
-import { useGetAllProjects } from "@/hooks/project.hook";
+import { useGetFeaturedProjects } from "@/hooks/project.hook";
 import { TDisplayProject } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const HomeProjectsSection = () => {
-  const { data: projects, isLoading: projectLoading } = useGetAllProjects({
-    limit: 3,
+  const { data: projects, isLoading: projectLoading } = useGetFeaturedProjects({
+    sort: "featuredSerial",
   });
   return (
     <>
@@ -81,7 +81,7 @@ const HomeProjectsSection = () => {
                           target="_blank"
                           className="bg-gray-900 p-2 text-sm text-white rounded-md"
                         >
-                          Live link
+                          Git server
                         </Link>
                       </div>
                     </div>

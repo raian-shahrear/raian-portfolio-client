@@ -25,6 +25,8 @@ export type TDisplayProject = {
   githubServer: string;
   technologies: string;
   image: string[];
+  isFeatured: boolean;
+  featuredSerial?: number;
   createdAt: string;
   updatedAt: string;
   __v: number;

@@ -74,7 +74,7 @@ const ProjectDetailsPage = ({ params }: TProjectDetailsProps) => {
                 target="_blank"
                 className="bg-gray-500 p-2 text-sm text-white rounded-md"
               >
-                Live link
+                Git server
               </Link>
             </div>
 

@@ -81,7 +81,7 @@ const ProjectsPage = () => {
                         target="_blank"
                         className="bg-gray-900 p-2 text-sm text-white rounded-md"
                       >
-                        Live link
+                        Git server
                       </Link>
                     </div>
                   </div>
